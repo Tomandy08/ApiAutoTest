@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dbCheck dbCheck_name="OpenYg数据库检查点">
+  <caseNo case_no="case085"> 
+    <table table_name="ACCOUNT">
+      <priKey key_name="ACCOUNT_NO">ACCOUNT_NO</priKey>  
+      <column column_name="CUST_ID">CUST_ID</column>  
+      <column column_name="MERCHANT_ID">MERCHANT_ID</column>  
+	  <column column_name="ACCOUNT_STATUS">1</column>
+    </table>
+  </caseNo>
+
+  <caseNo case_no="case085">
+    <table table_name="ACCOUNT">
+       <priKey key_name="ACCOUNT_NO">ACCOUNT_NO</priKey>
+       <column column_name="CUST_ID">CUST_ID</column>
+       <column column_name="MERCHANT_ID">MERCHANT_ID</column>
+       <column column_name="ACCOUNT_STATUS">2</column>
+    </table>
+  </caseNo>
+
+</dbCheck>
+
